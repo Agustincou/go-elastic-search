@@ -47,6 +47,14 @@
   version = "v0.0.10"
 
 [[projects]]
+  digest = "1:07dd95756da2535052eb662e72981b7d856d104cca09f8050afaff117e8b4d5b"
+  name = "github.com/mcuadros/go-defaults"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "ac8540f0fc7e0fb5f1eb9e25c6fd0b8db8f97eed"
+  version = "v1.1.0"
+
+[[projects]]
   digest = "1:33422d238f147d247752996a26574ac48dcf472976eda7f5134015f06bf16563"
   name = "github.com/modern-go/concurrent"
   packages = ["."]
@@ -97,6 +105,9 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["github.com/gin-gonic/gin"]
+  input-imports = [
+    "github.com/gin-gonic/gin",
+    "github.com/mcuadros/go-defaults",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1
